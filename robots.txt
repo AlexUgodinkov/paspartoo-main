@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /thanks-for-your-quote/
+Disallow: /ru/блог/
+Disallow: /be-slider/
+Disallow: /templates
+Disallow: /myloginpage
+
+Sitemap: https://paspartoo.com/sitemap.xml
+Host: https://paspartoo.com/ 

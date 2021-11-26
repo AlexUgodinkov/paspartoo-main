@@ -1,0 +1,362 @@
+footer {
+  svg path{
+    -webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out
+  }
+  a:hover, a:focus {
+    color: #CEE0BE;
+    svg path {
+      fill: #CEE0BE;
+    }
+  }
+ // position: fixed;
+  //width: 100%;
+ // bottom: 0;
+  //left: 0;
+ //z-index: -1;
+  z-index: 10;
+  position: relative;
+}
+.footer_line {
+  height: $s110;
+  @media (max-width: $screen-big-min) {
+    height: $s110-big;
+  }
+  @media (max-width: $screen-lg-min) {
+    height: $s110-lg;
+  }
+  @media (max-width: $screen-xs-min) {
+    height: $s110-xs;
+  }
+  background-color: #22292E;
+  color: #6E8999;
+  a {
+    color: #6E8999;
+  }
+  .social {
+    li {
+      display: inline-block;
+      padding-right: 20px;
+      @media (max-width: $screen-sm-min) {
+        padding-right: 10px;
+      }
+    }
+    a {
+      font-size:$h4;
+      @media (max-width: $screen-big-min) {
+        font-size: $h4-big;
+      }
+      @media (max-width: $screen-md-min) {
+        font-size: $h4-md;
+      }
+      @media (max-width: $screen-xs-min) {
+        font-size: $h4-xs;
+      }
+    }
+    a:hover, a:focus {
+      color: #CEE0BE;
+    }
+    @media (max-width: $screen-xs-min) {
+      display: none;
+    }
+  }
+
+
+
+  svg {
+    vertical-align: middle;
+    width: 233px;
+    height: 41px;
+    @media (max-width: $screen-big-min) {
+      width: 193px;
+      height: 34px;
+    }
+    @media (max-width: $screen-sm-min) {
+      width: 165px;
+      height: 30px;
+    }
+    @media (max-width: $screen-xs-min) {
+      width: 126px;
+      height: 23px;
+    }
+  }
+}
+.footer_block {
+  h6 {
+    padding-bottom: 15px;
+  }
+  li {
+    padding-bottom: 5px;
+  }
+  background-color: #171C1F;
+  padding-top: $s68;
+  @media (max-width: $screen-big-min) {
+    padding-top: $s68-big;
+  }
+  @media (max-width: $screen-xs-min) {
+    padding-top: $s68-xs;
+  }
+  color: #6E8999;
+  a {
+    color: #6E8999;
+  }
+  a:hover, a:focus {
+    color: #CEE0BE;
+  }
+  .subrow {
+
+    padding-bottom: $s68;
+    @media (max-width: $screen-big-min) {
+      padding-bottom: $s68-big;
+    }
+    @media (max-width: $screen-xs-min) {
+      padding-bottom: $s68-xs;
+      .col-md-2, .col-md-3 {
+        display: none;
+      }
+    }
+
+    @media (max-width: $screen-md-min) {
+      .col-md-4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+      }
+      .col-md-2, .col-md-3 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.33333%;
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+      }
+      .contacts table {
+        margin-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .contacts {
+        padding-bottom: $s68-big;
+        @media (max-width: $screen-xs-min) {
+          padding-bottom: $s68-xs;
+        }
+      }
+    }
+  }
+.line {
+  border-top: 1px solid;
+  margin: 0;
+}
+  .footer_four {
+    padding-top: 34px
+  }
+  .subblock {
+    height: $s68;
+    li {
+      display: inline-block;
+      padding-right: 10px;
+      padding-bottom: 0;
+    }
+    font-size: $ps;
+    @media (max-width: $screen-xs-min) {
+      font-size: $ps-xs;
+      .col {
+        align-self: end;
+      }
+      .col-auto {
+        align-self: start;
+      }
+    }
+    @media (max-width: $screen-sm-min) {
+      .col, .col-auto {
+        flex: 0 0 100%;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+      }
+    }
+  }
+  .contacts {
+    .social {
+      display: none;
+      @media (max-width: $screen-xs-min) {
+        display: block;
+      }
+      li {
+        display: inline-block;
+        margin: 0 10px;
+        padding-top: 15px;
+      }
+      a.phone {
+        font-size: 18px;
+        width: 42px;
+        height: 42px;
+        border: 2px solid;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        display: block;
+        line-height: 38px;
+      }
+    }
+
+  .phone {
+    margin-bottom: 30px;
+    @media (max-width: $screen-xs-min) {
+      margin-bottom: 0px;
+    }
+    a {
+      font-size: 32px;
+      font-family: "Fira Sans",sans-serif;
+      font-weight: 700;
+    }
+  }
+    table {
+      margin-top: 15px;
+      a {
+        color: #12A9EA;
+      }
+      a:hover {
+        color: #CEE0BE;
+      }
+    }
+    tr.contact_block {
+      font-size: $h5;
+      @media (max-width: $screen-big-min) {
+        font-size: $h5-big;
+      }
+      @media (max-width: $screen-xs-min) {
+        font-size: $h5-xs;
+      }
+      td.icon {
+        width: 30px;
+        vertical-align: top;
+      }
+    }
+  }
+}
+
+
+#appform_show{position: fixed;height: 100%;width: 100%;left: 0;top: 0;z-index:9990;-webkit-tap-highlight-color: transparent;-ms-touch-action: manipulation;touch-action: manipulation;transform: translateZ(0);}
+.email_appform .wpcf7-not-valid-tip{display:none !important;}
+.bg_appform_show{bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index:9991;
+  background: rgba(31, 31, 31, 0.6);
+  transition-timing-function: cubic-bezier(.22,.61,.36,1);
+  transition-duration: inherit;
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(.47,0,.74,.71);}
+.content_appform_show_over {z-index:9992;-webkit-backface-visibility: hidden;
+  height: 100%;
+  left: 0;
+  outline: none;
+  //overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 15px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transition-property: transform,opacity;
+  white-space: normal;
+  width: 100%;
+  text-align:center;}
+.content_appform_show{
+  border-radius: 4px;
+  h2{
+    color: $brand-black;
+    font-weight: 600;
+    font-size: 32px;
+    @media (max-width: $screen-xs-min) {
+      font-size: 21px;
+    }
+  }
+  background: linear-gradient(0deg, #FAFAFA, #FAFAFA), linear-gradient(260.5deg, rgba(18, 117, 234, 0.7) 0.48%, rgba(7, 0, 92, 0.7) 98.77%), linear-gradient(260.5deg, rgba(74, 57, 139, 0.7) 0.48%, rgba(0, 174, 153, 0.7) 98.77%);
+  margin-top: 7%;
+  margin-bottom: 7%;
+  padding: 55px 45px 55px;
+  @media (max-width: $screen-sm-min) {
+    padding: 35px 15px 35px;
+  }
+  display: inline-block;
+  max-width: 500px;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+  text-align: left;
+  vertical-align: middle;
+  input.wpcf7-submit {
+    width: 100% !important;
+    border: 0px !important;
+  }
+  div.wpcf7-response-output {margin: 0 !important;}
+  span.ajax-loader {width: 0 !important; height: 0 !important; display: none !important;}
+}
+#del {
+  position: absolute;
+  top: -1px;
+  font-size: 22px;
+  cursor: pointer;
+  right: 15px;
+  -webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out
+
+}
+#del:hover, #del:focus {
+  color: $brand-primary;
+}
+
+.wpcf7-form br {display: none}
+.content_appform_show_close {
+  text-align: right;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  font-size: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  transition:all .3s ease-in-out;
+}
+.content_appform_show_close:hover, .content_appform_show_close:focus {
+  background-color: #ebebeb;
+}
+input.wpcf7-submit {
+  background: linear-gradient(240.82deg, #FF872E 0%, #FF3A2E 100%);
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition:all .3s ease-in-out;
+  padding: 0;
+  margin: 0;
+}
+input.wpcf7-submit:hover {
+  background: linear-gradient(254.47deg, #FF5631 0%, #FE0F00 100%);
+  text-shadow: 0px 0px 5px #FFFFFF;
+}
+
+#myfile {
+  position: absolute;
+  width: 0 !important;
+  height: 0 !important;
+  visibility: hidden;
+}
+
+.attach_file {
+  min-height: 52px;
+  cursor: pointer;
+  color: #12A9EA;
+  font-size: 18px;
+  transition:all .3s ease-in-out;
+  i {
+    padding-right: 10px;
+  }
+}
+.attach_file:hover {
+  color: $brand-primary;
+}

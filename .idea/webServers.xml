@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5c6e1fe5-1ad8-44af-acc3-d89b911ffd10" name="paspartoo-main">
+        <fileTransfer accessType="SFTP" host="188.166.104.78" port="22" sshConfigId="2aaa8238-8593-4f71-9ac7-0ed0eafa90fc" sshConfig="admin@188.166.104.78:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

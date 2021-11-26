@@ -1,0 +1,302 @@
+# Translation of Plugins - Simple Image Sizes - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Simple Image Sizes - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-10-03 07:09:58+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Simple Image Sizes - Stable (latest release)\n"
+
+#: classes/admin/post.php:53
+msgid "Regenerate image sizes"
+msgstr "Regenerar tamaños de imágenes"
+
+#: classes/admin/post.php:78
+msgid "There is no media attached to this content."
+msgstr "No hay medios asociados a este contenido."
+
+#: classes/admin/media.php:69
+msgid "Settings"
+msgstr "Configurar"
+
+#: classes/admin/main.php:181 templates/options-media.php:42
+msgid "Yes"
+msgstr "Si"
+
+#: classes/admin/main.php:180 templates/options-media.php:42
+msgid "No"
+msgstr "No"
+
+#: templates/options-media.php:19 templates/options-media.php:75
+msgid "Height"
+msgstr "Altura"
+
+#: templates/options-media.php:18 templates/options-media.php:74
+msgid "Width"
+msgstr "Ancho"
+
+#: classes/admin/main.php:171
+msgid "top"
+msgstr "Superior"
+
+#: classes/admin/main.php:173
+msgid "bottom"
+msgstr "Inferior"
+
+#: classes/admin/main.php:165
+msgid "Left"
+msgstr "Izquierda"
+
+#: classes/admin/main.php:166
+msgid "Center"
+msgstr "Centro"
+
+#: classes/admin/main.php:167
+msgid "Right"
+msgstr "Derecha"
+
+#. Author URI of the plugin/theme
+msgid "http://nicolas-juen.fr"
+msgstr "http://nicolas-juen.fr"
+
+#. Author of the plugin/theme
+msgid "Rahe"
+msgstr "Rahe"
+
+#. Description of the plugin/theme
+msgid "Add options in media setting page for images sizes"
+msgstr "Añade opciones en la página de ajustes de medios para las miniaturas de imágenes"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/Rahe/simple-image-sizes"
+msgstr "https://github.com/Rahe/simple-image-sizes"
+
+#: templates/options-media.php:150
+msgid "Last image:"
+msgstr "Última imagen:"
+
+#: templates/options-media.php:139
+msgid "Calculating..."
+msgstr "Calculando..."
+
+#: templates/options-media.php:81
+msgid "Select which post type source thumbnails you want to rebuild:"
+msgstr "Elige de qué tipo de entrada quieres regenerar las miniaturas:"
+
+#: templates/options-media.php:20 templates/options-media.php:76
+msgid "Crop ?"
+msgstr "¿Recortar?"
+
+#: templates/options-media.php:10
+msgid "Select which thumbnails you want to rebuild:"
+msgstr "Elige qué miniaturas quieres regenerar: "
+
+#: classes/admin/main.php:107
+msgid "This file already exists in this size and have not been regenerated :<br/><a target=\"_blank\" href=\"%1$s\" >%2$s</a>"
+msgstr "Ya existe un archivo para esta miniatura y no ha sido regenerado:<br/><a target=\"_blank\" href=\"%1$s\" >%2$s</a>"
+
+#: classes/admin/main.php:94
+msgid "No id given in POST datas."
+msgstr "No se ha enviado el id en los datos de POST"
+
+#: classes/admin/post.php:325 classes/admin/post.php:333
+#: templates/options-media.php:152
+msgid "Regenerate Thumbnails"
+msgstr "Regenerar Miniaturas"
+
+#: classes/admin/post.php:299
+msgid "Regenerate thumbnails"
+msgstr "Regenerar miniaturas"
+
+#: classes/admin/media.php:521
+msgid "Regeneration ended"
+msgstr "Regeneración finalizada"
+
+#: classes/admin/media.php:257
+msgid "Admin option-media template missing"
+msgstr "Plantilla de administración de opciones de medios no encontrada"
+
+#: classes/admin/media.php:240
+msgid "Get the PHP for the theme"
+msgstr "Consigue el código PHP para el tema"
+
+#: classes/admin/media.php:193
+msgid "Cropping"
+msgstr "Recortar"
+
+#: classes/admin/media.php:130
+msgid "Thumbnail regeneration"
+msgstr "Regeneración de miniaturas"
+
+#: classes/admin/media.php:124
+msgid "Get php for theme"
+msgstr "Obtener PHP para tema"
+
+#: classes/admin/media.php:118
+msgid "Add a new size"
+msgstr "Añadir nuevo tamaño"
+
+#: classes/admin/media.php:108
+msgid "%s size"
+msgstr "%s tamaño"
+
+#: classes/admin/main.php:172
+msgid "center"
+msgstr "centrar"
+
+#: classes/admin/main.php:114
+msgid "This file does not exists and have not been regenerated :<br/><a target=\"_blank\" href=\"%1$s\" >%2$s</a>"
+msgstr "Este archivo no existe y no ha sido regenerado:<br/><a target=\"_blank\" href=\"%1$s\" >%2$s</a>"
+
+#: classes/admin/media.php:227
+msgid "Add a new size of thumbnail"
+msgstr "Añade un nuevo tamaño de miniatura"
+
+#: templates/options-media.php:138
+msgid "End time calculated :"
+msgstr "Tiempo de finalización estimado."
+
+#: templates/options-media.php:88 templates/options-media.php:119
+msgid "Post type"
+msgstr "Tipo de publicación"
+
+#: classes/admin/media.php:241
+msgid "Copy and paste the code below into your Wordpress theme function file if you wanted to save them and deactivate the plugin."
+msgstr "Copie y pegue el siguiente código en su archivo de función de tema de WordPress si desea guardarlos y desactivar el complemento."
+
+#: classes/admin/media.php:474 classes/admin/post.php:72
+#: classes/admin/post.php:135
+msgid "Trying to cheat ?"
+msgstr "¿Tratando de hacer trampa?"
+
+#: templates/options-media.php:17 templates/options-media.php:73
+msgid "Size name"
+msgstr "Nombre de tamaño"
+
+#. Plugin Name of the plugin/theme
+msgid "Simple Image Sizes"
+msgstr "Simple Image Sizes"
+
+#: classes/admin/main.php:62 classes/admin/media.php:212
+msgid "Update"
+msgstr "Actualizar"
+
+#: classes/admin/main.php:52 classes/admin/media.php:211
+msgid "Delete"
+msgstr "Borrar"
+
+#: classes/admin/main.php:58
+msgid "Size"
+msgstr "Tamaño"
+
+#: classes/admin/main.php:71
+msgid "This image has been regenerated in %s seconds"
+msgstr "Esta imagen ha sido regenerada en %s segundos"
+
+#: classes/admin/main.php:70
+msgid "All the sizes you have modified are not saved, continue anyway ?"
+msgstr "Ninguna miniatura modificada ha sido guardada, ¿continuar de todas formas?"
+
+#: classes/admin/main.php:69
+msgid "Error during the php treatment, be sure to not have php errors in your page"
+msgstr "Error durante el procesado php, asegúrate de no tener errores php en tu página"
+
+#: classes/admin/main.php:68
+msgid " finished at :"
+msgstr "finalizado a las:"
+
+#: classes/admin/main.php:67 classes/admin/media.php:186
+msgid "Public name"
+msgstr "Nombre público"
+
+#: classes/admin/main.php:66
+msgid " started at"
+msgstr "comenzado a las"
+
+#: classes/admin/main.php:65
+msgid "Validate"
+msgstr "Validar"
+
+#: classes/admin/main.php:63
+msgid "Error requesting page"
+msgstr "Error solicitando página"
+
+#: classes/admin/main.php:55
+msgid "Regenerate "
+msgstr "Regenerar"
+
+#: classes/admin/main.php:54
+msgid "Regenerating "
+msgstr "Regenerando"
+
+#: classes/admin/main.php:53
+msgid "No media in your site to regenerate !"
+msgstr "¡No hay medios en tu sitio para regenerar!"
+
+#: classes/admin/main.php:51
+msgid " before the end."
+msgstr "antes de terminar."
+
+#: classes/admin/main.php:50
+msgid " or "
+msgstr "o"
+
+#: classes/admin/main.php:49
+msgid " of "
+msgstr "de"
+
+#: classes/admin/main.php:48 classes/admin/media.php:209
+msgid "Show in post insertion ?"
+msgstr "¿Mostrar al insertar entradas?"
+
+#: classes/admin/main.php:47
+msgid "no"
+msgstr "no"
+
+#: classes/admin/main.php:45
+msgid "Crop"
+msgstr "Recortar"
+
+#: classes/admin/main.php:60
+msgid "This size is already registered, edit it instead of recreating it."
+msgstr "Este tamaño ya está registrado, intenta editarlo en vez de crearlo nuevamente."
+
+#: classes/admin/main.php:61
+msgid "Do you really want to delete these size ?"
+msgstr "¿Estás seguro que quieres borrar este tamaño?"
+
+#: classes/admin/main.php:57
+msgid "Done."
+msgstr "Hecho"
+
+#: classes/admin/main.php:46
+msgid "yes"
+msgstr "si"
+
+#: classes/admin/main.php:44 classes/admin/media.php:179
+msgid "Maximum height"
+msgstr "Alto máximo"
+
+#: classes/admin/main.php:43 classes/admin/media.php:172
+msgid "Maximum width"
+msgstr "Ancho máximo"
+
+#: classes/admin/main.php:42
+msgid "Reading attachments..."
+msgstr "Leyendo adjuntos..."
+
+#: classes/admin/main.php:64
+msgid "images have been regenerated !"
+msgstr "¡Las imagenes han sido regeneradas!"
+
+#: classes/admin/main.php:59
+msgid "Don't use the basic WordPress thumbnail size name, use the form above to edit them"
+msgstr "No uses el tamaño de miniaturas básico de WordPress, usa el formulario de arriba para editarlo."
+
+#: classes/admin/main.php:56
+msgid "Validate image size name"
+msgstr "Validando el nombre de tamaño de imagen"

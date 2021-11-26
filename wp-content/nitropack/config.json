@@ -1,0 +1,19 @@
+{
+    "paspartoo.com": {
+        "siteId": "DHiSuxgqXaKVHLGFdTZpWloFSrIrZcpx",
+        "siteSecret": "JezskIKKRErLlKnSwXb3NVocgqTJbBuMCW4xRZu7SUyOgcGFdpZ6mCYIC3Tx8XKB",
+        "blogId": 1,
+        "compression": false,
+        "webhookToken": "6fcf80c872498b89f51fcba912e96837",
+        "home_url": "https:\/\/paspartoo.com",
+        "admin_url": "https:\/\/paspartoo.com\/wp-admin\/",
+        "hosting": "unknown",
+        "alwaysBuffer": true,
+        "isEzoicActive": false,
+        "isLateIntegrationInitRequired": false,
+        "isDlmActive": false,
+        "dlm_downloading_url": null,
+        "dlm_download_endpoint": null,
+        "pluginVersion": "1.5.4"
+    }
+}

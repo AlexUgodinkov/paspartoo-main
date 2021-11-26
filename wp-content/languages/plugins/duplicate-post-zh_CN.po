@@ -1,0 +1,403 @@
+# Translation of Plugins - Duplicate Post - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - Duplicate Post - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-06-30 19:11:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - Duplicate Post - Stable (latest release)\n"
+
+#: duplicate-post-common.php:114
+msgid "Edit &#8220;%s&#8221;"
+msgstr "编辑&#8220;%s&#8221;"
+
+#: duplicate-post-admin.php:378
+msgid "Copy &#8220;%s&#8221; to a new draft"
+msgstr "复制 &#8220;%s&#8221; 到新草稿"
+
+#: duplicate-post-admin.php:375
+msgid "Clone &#8220;%s&#8221;"
+msgstr "克隆&#8220;%s&#8221;"
+
+#: duplicate-post-common.php:124
+msgid "Preview &#8220;%s&#8221;"
+msgstr "预览 &#8220;%s&#8221;"
+
+#: duplicate-post-options.php:96
+msgid "Translate Duplicate Post"
+msgstr "翻译 Duplicate Post"
+
+#. translators: %s: post title
+#: duplicate-post-common.php:133
+msgid "View &#8220;%s&#8221;"
+msgstr "查看&#8220;%s&#8221;"
+
+#: duplicate-post-options.php:97
+msgid "Support forum for Duplicate Post"
+msgstr "Duplicate Post 技术支持论坛"
+
+#: duplicate-post-options.php:92 duplicate-post-admin.php:216
+msgid "Support the plugin by making a donation or becoming a patron!"
+msgstr "通过捐款或成为赞助者来支持插件！"
+
+#: duplicate-post.php:52
+msgid "Settings for Duplicate Post"
+msgstr "Duplicate Post的设置"
+
+#: duplicate-post-options.php:598
+msgid "Show original item:"
+msgstr "显示原始项目："
+
+#. translators: Original item link (to view or edit) or title.
+#: duplicate-post-admin.php:325
+msgid "Original: %s"
+msgstr "原始：%s"
+
+#: duplicate-post-admin.php:271
+msgid "Original item"
+msgstr "原始项目"
+
+#: duplicate-post-admin.php:797
+msgid "Donate to support Duplicate Post"
+msgstr "捐赠支持Duplicate Post"
+
+#: duplicate-post-options.php:95 duplicate-post-admin.php:796
+msgid "Documentation for Duplicate Post"
+msgstr "Duplicate Post的文档"
+
+#: duplicate-post-admin.php:213
+msgid "Accessibility of the user interface has been improved"
+msgstr "改进了用户界面的可访问性"
+
+#: duplicate-post-admin.php:356
+msgid "Delete reference to original item: <span class=\"duplicate_post_original_item_title_span\">%s</span>"
+msgstr "去掉对原始项目的引用<span class=\"duplicate_post_original_item_title_span\">%s</span>"
+
+#: duplicate-post-admin.php:300
+msgid "Delete reference to original item: <span class=\"duplicate_post_original_item_title_span\"></span>"
+msgstr "删除对原始项目的引用：<span class=\"duplicate_post_original_item_title_span\"></span>"
+
+#: duplicate-post-admin.php:212
+msgid "New options to show the original in the post list or in the edit screen!"
+msgstr "新选项可以在文章列表或编辑屏幕中显示原始信息！"
+
+#: duplicate-post-options.php:604
+msgid "you'll also be able to delete the reference to the original item with a checkbox"
+msgstr "您还可以通过复选框删除对原始项目的引用"
+
+#: duplicate-post-options.php:610
+msgid "you'll also be able to delete the reference to the original item with a checkbox in Quick Edit"
+msgstr "您还可以通过快速编辑中的复选框删除对原始项目的引用"
+
+#: duplicate-post-options.php:593
+msgid "You can also use the template tag duplicate_post_clone_post_link( $link, $before, $after, $id ). You can find more info about this on the <a href=\"%s\">developer&apos;s guide for Duplicate Post</a>"
+msgstr "还可以使用模板标记duplicate_post_clone_post_link( $link, $before, $after, $id )。你可以在<a href=\"%s\">开发者指南</a>中找到更多关于这个的信息"
+
+#: duplicate-post-options.php:615
+msgid "After the title in the Post list"
+msgstr "在文章列表中的标题之后"
+
+#: duplicate-post-options.php:609
+msgid "In a column in the Post list"
+msgstr "在文章列表的一个列中"
+
+#: duplicate-post-options.php:603
+msgid "In a metabox in the Edit screen [Classic editor]"
+msgstr "在“编辑”屏幕中的metabox中[经典编辑器]"
+
+#: duplicate-post-admin.php:210
+msgid "What's new in Duplicate Post version %s:"
+msgstr "Duplicate Post %s 新功能："
+
+#: duplicate-post-options.php:583
+msgid "now works on Edit screen too - check this option to use with Gutenberg enabled"
+msgstr "现在也可以在“编辑”屏幕上使用-选中此选项以在启用古腾堡的情况下使用"
+
+#: duplicate-post-options.php:90 duplicate-post-admin.php:216
+msgid "Serving the WordPress community since November 2007."
+msgstr "自2007年11月起为WordPress群体服务。"
+
+#: duplicate-post-admin.php:422
+msgid "Current user is not allowed to copy posts."
+msgstr "当前用户不允许复制文章。"
+
+#: duplicate-post-admin.php:215
+msgid "Check out the documentation"
+msgstr "查看文档"
+
+#. Plugin URI of the plugin
+msgid "https://duplicate-post.lopo.it/"
+msgstr "https://duplicate-post.lopo.it/"
+
+#: duplicate-post-options.php:95 duplicate-post-admin.php:796
+msgid "Documentation"
+msgstr "文档"
+
+#: duplicate-post-options.php:425
+msgid "you probably want this unchecked, unless you have very special requirements"
+msgstr "除非您有非常特殊的要求，否则您可能希望对此进行检查。"
+
+#: duplicate-post-options.php:622
+msgid "Show update notice"
+msgstr "显示更新通知"
+
+#: duplicate-post-options.php:419
+msgid "Author"
+msgstr "作者"
+
+#: duplicate-post-options.php:587
+msgid "Bulk Actions"
+msgstr "批量操作"
+
+#: duplicate-post-options.php:416
+msgctxt "post format"
+msgid "Format"
+msgstr "格式"
+
+#: duplicate-post-options.php:413
+msgid "Template"
+msgstr "模板"
+
+#: duplicate-post-options.php:97
+msgid "Support Forum"
+msgstr "支持论坛"
+
+#: duplicate-post-options.php:434
+msgid "Menu order"
+msgstr "菜单顺序"
+
+#: duplicate-post-options.php:488
+msgid "You can use * to match zero or more alphanumeric characters or underscores: e.g. field*"
+msgstr "可以使用*匹配零个或多个字母数字字符或下划线：例如：field*"
+
+#: duplicate-post-options.php:410
+msgid "Featured Image"
+msgstr "封面图像"
+
+#: duplicate-post-admin.php:215
+msgid "Please <a href=\"%s\">review the settings</a> to make sure it works as you expect."
+msgstr "为了确保正常运行，请 <a href=\"%s\">检查设置</a>"
+
+#: duplicate-post-admin.php:807
+msgid "%s item copied."
+msgid_plural "%s items copied."
+msgstr[0] "%s 项目已复制。"
+
+#: duplicate-post-options.php:425
+msgid "Attachments"
+msgstr "附件"
+
+#: duplicate-post-options.php:422
+msgid "Password"
+msgstr "密码"
+
+#: duplicate-post-options.php:398
+msgid "Status"
+msgstr "状态"
+
+#: duplicate-post-options.php:395
+msgid "Date"
+msgstr "日期"
+
+#: duplicate-post-options.php:392
+msgid "Title"
+msgstr "标题"
+
+#: duplicate-post-options.php:376
+msgid "Display"
+msgstr "显示"
+
+#: duplicate-post-options.php:367
+msgid "Permissions"
+msgstr "权限"
+
+#: duplicate-post-options.php:431
+msgid "except pingbacks and trackbacks"
+msgstr "除了pingbacks和trackbacks"
+
+#: duplicate-post-options.php:358
+msgid "What to copy"
+msgstr "要复制的内容"
+
+#: duplicate-post-options.php:473
+msgid "Add this number to the original menu order (blank or zero to retain the value)"
+msgstr "将此编号添加到原始的菜单顺序 （空白或零将保留值）"
+
+#: duplicate-post-options.php:467
+msgid "Increase menu order by"
+msgstr "通过增加菜单顺序"
+
+#: duplicate-post-admin.php:703
+msgid "Untitled"
+msgstr "无标题"
+
+#: duplicate-post-options.php:407
+msgid "Content"
+msgstr "正文"
+
+#: duplicate-post-options.php:431
+msgid "Comments"
+msgstr "评论"
+
+#: duplicate-post-options.php:495
+msgid "Show/hide private taxonomies"
+msgstr "显示/隐藏私密分类法"
+
+#: duplicate-post-options.php:545
+msgid "Passwords and contents of password-protected posts may become visible to undesired users and visitors"
+msgstr "密码保护的内容访客无法访问"
+
+#: duplicate-post-options.php:561 duplicate-post-options.php:592
+msgid "Whether the links are displayed for custom post types registered by themes or plugins depends on their use of standard WordPress UI elements"
+msgstr "链接是否在自定义文章类型显示，取决于他们是否使用标准的 WordPress UI 元素"
+
+#: duplicate-post-options.php:401
+msgid "Slug"
+msgstr "别名"
+
+#: duplicate-post-options.php:388
+msgid "Post/page elements to copy"
+msgstr "文章/页面元素复制"
+
+#: duplicate-post-options.php:404
+msgid "Excerpt"
+msgstr "摘要"
+
+#: duplicate-post-options.php:428
+msgid "Children"
+msgstr "子页面"
+
+#: duplicate-post-admin.php:219
+msgid "Dismiss this notice."
+msgstr "忽略此通知。"
+
+#: duplicate-post-admin.php:684
+msgid "Copy features for this post type are not enabled in options page"
+msgstr "请到“设置-复制”设置开启此文章类型"
+
+#: duplicate-post-options.php:551
+msgid "Enable for these post types"
+msgstr "为这些类型文章开启"
+
+#: duplicate-post-options.php:560
+msgid "Select the post types you want the plugin to be enabled"
+msgstr "选择您要开启复制功能的文章类型"
+
+#: duplicate-post-common.php:78 duplicate-post-common.php:81
+#: duplicate-post-common.php:172 duplicate-post-common.php:184
+#: duplicate-post-admin.php:395
+msgid "Copy to a new draft"
+msgstr "复制到新草稿"
+
+#: duplicate-post-options.php:480
+msgid "Do not copy these fields"
+msgstr "不要复制这些字段"
+
+#: duplicate-post-admin.php:797
+msgid "Donate"
+msgstr "捐赠"
+
+#: duplicate-post-options.php:49 duplicate-post-options.php:79
+msgid "Duplicate Post Options"
+msgstr "文章复制选项"
+
+#: duplicate-post-options.php:633
+msgid "Save Changes"
+msgstr "保存变更"
+
+#: duplicate-post-options.php:441
+msgid "Title prefix"
+msgstr "标题前缀"
+
+#: duplicate-post-options.php:96
+msgid "Translate"
+msgstr "翻译"
+
+#. Author of the plugin
+msgid "Enrico Battocchi"
+msgstr "Enrico Battocchi"
+
+#: duplicate-post-options.php:575
+msgid "Show links in"
+msgstr "显示链接"
+
+#: duplicate-post.php:53
+msgid "Settings"
+msgstr "设置"
+
+#: duplicate-post-admin.php:379
+msgid "New Draft"
+msgstr "新草稿"
+
+#: duplicate-post-options.php:579
+msgid "Post list"
+msgstr "文章列表"
+
+#: duplicate-post-options.php:581
+msgid "Edit screen"
+msgstr "编辑界面"
+
+#. Description of the plugin
+msgid "Clone posts and pages."
+msgstr "复制文章和页面"
+
+#: duplicate-post-options.php:583
+msgid "Admin bar"
+msgstr "管理员工具条"
+
+#: duplicate-post-options.php:544
+msgid "Warning: users will be able to copy all posts, even those of other users"
+msgstr "警告：用户将能够复制所有文章，甚至其他用户的文章"
+
+#: duplicate-post-options.php:454
+msgid "Title suffix"
+msgstr "标题后缀"
+
+#: duplicate-post-options.php:447
+msgid "Prefix to be added before the title, e.g. \"Copy of\" (blank for no prefix)"
+msgstr "在原始标题前添加前缀，例如：“复制为”（留空不加前缀）"
+
+#: duplicate-post-admin.php:466
+msgid "Copy creation failed, could not find original:"
+msgstr "复制失败，无法找到原内容："
+
+#: duplicate-post-admin.php:376 duplicate-post-admin.php:831
+msgid "Clone"
+msgstr "复制"
+
+#. Plugin Name of the plugin
+#: duplicate-post-options.php:49
+msgid "Duplicate Post"
+msgstr "Duplicate Post"
+
+#: duplicate-post-admin.php:426
+msgid "No post to duplicate has been supplied!"
+msgstr "没有提供可供复制的文章"
+
+#: duplicate-post-options.php:487
+msgid "Comma-separated list of meta fields that must not be copied"
+msgstr "填入不想复制的字段，以逗号分割"
+
+#: duplicate-post-options.php:493
+msgid "Do not copy these taxonomies"
+msgstr "不要复制这些分类法"
+
+#: duplicate-post-options.php:512
+msgid "Select the taxonomies you don't want to be copied"
+msgstr "选择您不想复制的分类法"
+
+#: duplicate-post-options.php:460
+msgid "Suffix to be added after the title, e.g. \"(dup)\" (blank for no suffix)"
+msgstr "在原始标题前添加后缀，例如：“的副本”（留空不加后缀）"
+
+#: duplicate-post-options.php:527
+msgid "Roles allowed to copy"
+msgstr "允许执行“复制”操作的角色"
+
+#. Author URI of the plugin
+msgid "https://lopo.it"
+msgstr "https://lopo.it"
